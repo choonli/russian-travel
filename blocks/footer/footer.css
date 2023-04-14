@@ -1,28 +1,22 @@
 .footer {
   display: flex;
   flex-direction: row;
-  margin: 92px auto 24px auto;
+  margin: 0 auto;
   max-width: 1184px;
-  height: 18px;
+  padding: 92px 48px 24px;
   justify-content: space-between;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
   .footer {
-    max-width: 928px;
+    padding: 88px 48px 24px;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
-  .place {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
   .footer {
     display: flex;
     flex-direction: column;
-    margin-left: 16px;
+    padding: 24px 16px;
   }
 }

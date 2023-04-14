@@ -11,7 +11,7 @@
   justify-content: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .footer__copyright {
     justify-content: start;
     margin-top: 48px;
