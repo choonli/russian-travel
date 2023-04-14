@@ -4,11 +4,6 @@
   font-size: 12px;
   line-height: 12px;
   color: #aaa;
-}
-
-@media screen and (max-width: 320px) {
-  .place__url-heading {
-    font-size: 12px;
-    line-height: 12px;
-  }
+  letter-spacing: 2px;
+  margin: 0 0 12px 0;
 }

@@ -10,12 +10,6 @@
   display: block;
 }
 
-@media screen and (max-width: 800px) {
-  .lead__title {
-    padding: 27px 0 0;
-  }
-}
-
 @media screen and (max-width: 760px) {
   .lead__title {
     font-size: 40px;

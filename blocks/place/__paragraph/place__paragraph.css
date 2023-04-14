@@ -22,6 +22,11 @@
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
-    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    padding: 0 22px;
   }
 }
